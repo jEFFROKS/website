@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+body{
+    background: black;
+    color: white;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+.logo{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.logo span{
+    color: blue;
+    font-weight: 700;
+}
+.navbar a{
+    font-size: 18px;
+    color: wheat;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .7s;
+
+}
+.navbar a:hover,
+.navbar a.active{
+    color: blue;
+    cursor: pointer;
+}
+
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    justify-content: space-between;
+}
+.home-content{
+    max-width: 600px;
+}
+
+.home-content h1 {
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.home-content h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(1, 1, 187);
+}
+.home-content p{
+    font-size: 16px;
+    margin: 20px 0 40px;
+
+}
+
+.home-content .btn-box {
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+    
+}
+.btn-box a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 19px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600s;
+    letter-spacing: 1px;
+}
+
+.btn-box a:hover {
+    background-color: rgb(8, 8, 8);
+    color: rgb(29, 5, 248);
+}
+
+.pic1{
+    cursor: pointer;
+     
+}
+
+.project{
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.project-content{
+    font-size: 19px; 
+    font-weight: 600; 
+    margin-left: 20px;
+}
+
+.desc{
+    border: 2px solid rgb(2, 6, 252);
+    padding: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 600;   
+}
+
+.desc a:hover{
+    background-color: wheat;
+    cursor: pointer;
+}
+
+.about {
+    height: 100vh;
+    display: flex;
+    margin: 0 10%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-content{
+    max-width: 600px;
+}
+
+.about-content h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2;
+}
+
+.about-content h2{
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.about-content p{
+    font-size: 19px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+#cntct{
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10%;
+    display: flex;
+}
+
+.contact .contact-content .h2{
+    display: flex;
+    font-weight: bold;
+    font-size: 2rem;
+    color: blue;
+
+}
+
+.input{
+    width: 400px;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 1px solid wheat;
+}
+
+.input::placeholder{
+    font-size: 1rem;
+}
+
+.form-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.fbtn{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 35px;
+    border: 2px solid rgb(5, 5, 253);
+    color: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0);
+    border-radius: 8%;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.fbtn:hover{
+    color: blue;
+    background: white;
+    transition: .4s all;
+}
+
+
